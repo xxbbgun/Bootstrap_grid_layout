@@ -1,0 +1,12 @@
+div{
+    border: 1px solid;
+}
+.justify-content-start{
+    background-color: lightgoldenrodyellow;
+}
+.justify-content-center{
+    background-color: lightskyblue;
+}
+.justify-content-end{
+    background-color: gray;
+}
