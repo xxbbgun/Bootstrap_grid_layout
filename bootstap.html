@@ -16,33 +16,34 @@
 <body>
     <h1>Hello, world!</h1>
     <div class="container">
-        <div class="row justify-content-start">
+        <div class="row">
             <div class="col-3">first column</div>
-            <div class="col">คอลัมที่สอง</div>
-            <div class="col-3">3</div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-3">first column</div>
-            <div class="col-3">คอลัมที่สอง</div>
-            <div class="col-3">3</div>
-        </div>
-        <div class="row justify-content-end">
-            <div class="col-3">first column</div>
-            <div class="col-3">คอลัมที่สอง</div>
-            <div class="col-3">3</div>
+            <div class="col-3 offset-3">
+                <div class="row">
+                    <div class="col">sub1</div>
+                    <div class="col">sub2</div>
+                    <div class="col">sub3</div>
+                </div>
+            </div>
         </div>
         <div class="row justify-content-around">
-            <div class="col-3">first column</div>
-            <div class="col-3">คอลัมที่สอง</div>
-            <div class="col-3">3</div>
-        </div>
-        <div class="row justify-content-between">
-            <div class="col-3">first column</div>
-            <div class="col-3">คอลัมที่สอง</div>
-            <div class="col">3</div>
+            <div class="col-3 offset-2">
+                <div class="row">
+                    <div class="col-5">a</div>
+                    <div class="col-5">b</div>
+                    <div class="col-6">c</div>
+                </div>
+            </div>
+            <div class="col-3  offset-2">
+                <div class="row justify-content-end">
+                    <div class="col-2">ก</div>
+                    <div class="col-3">ข</div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container-fluid">container-fluid</div>
+    </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
